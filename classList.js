@@ -171,10 +171,10 @@ if (objCtr.defineProperty) {
 	try {
 		objCtr.defineProperty(elemCtrProto, classListProp, classListPropDesc);
 	} catch (ex) { // IE 8 doesn't support enumerable:true
-		if (ex.number === -0x7FF5EC54) {
+		//if (ex.number === -0x7FF5EC54) {
 			classListPropDesc.enumerable = false;
 			objCtr.defineProperty(elemCtrProto, classListProp, classListPropDesc);
-		}
+		//}
 	}
 } else if (objCtr[protoProp].__defineGetter__) {
 	elemCtrProto.__defineGetter__(classListProp, classListGetter);
