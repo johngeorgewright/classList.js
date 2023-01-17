@@ -1,4 +1,14 @@
+# classList.js
+
 classList.js is a cross-browser JavaScript shim that fully implements `element.classList`. Refer to [the MDN page on `element.classList`][1] for more information.
+
+# Reasons for fork
+
+Is to fix IE bug. https://github.com/eligrey/classList.js/compare/master...MyMedsAndMe:classList.js:master.
+
+But wether we use it somewhere or not is not clear. 
+
+# Oficial readme
 
 This works in every browser except IE 7 or earlier.
 
