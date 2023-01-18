@@ -1,4 +1,4 @@
-# classList.js
+# classList.js [DEPRECATED]
 
 classList.js is a cross-browser JavaScript shim that fully implements `element.classList`. Refer to [the MDN page on `element.classList`][1] for more information.
 
